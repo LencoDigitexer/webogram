@@ -5,14 +5,17 @@ var pendingNotification = false
 var defaultBaseUrl
 switch (location.hostname) {
   case 'localhost':
-    defaultBaseUrl = 'http://localhost:8000/app/index.html#/im'
+    defaultBaseUrl = 'http://localhost:8000/app/index.html#/im?p=@romics_chat'
     break
   case 'zhukov.github.io':
     defaultBaseUrl = 'https://zhukov.github.io/webogram/#/im'
     break
+  case 'lencodigitexer.games':
+    defaultBaseUrl = 'https://lencodigitexer.games/#/im'
+    break
   default:
   case 'web.telegram.org':
-    defaultBaseUrl = 'https://' + location.hostname + '/#/im'
+    defaultBaseUrl = 'https://' + location.hostname + '/#/im?p=@romics_chat'
 }
 
 self.addEventListener('push', function(event) {

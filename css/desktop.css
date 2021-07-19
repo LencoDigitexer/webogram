@@ -687,7 +687,7 @@ a.footer_link.active:active {
 }
 .im_history_col_wrap {
   float: left;
-  width: 69%;
+  width: 100%;
 }
 .im_history_scrollable_wrap {
   /* Hardware acceleration in Safari */
