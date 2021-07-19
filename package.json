@@ -42,7 +42,7 @@
     "nl-nl",
     "pt-br"
   ],
-  "homepage": "http://zhukov.github.io/webogram",
+  "homepage": "http://lencodigitexer.github.io/webogram",
   "devDependencies": {
     "del": "^4.1.1",
     "gulp": "^4.0.2",

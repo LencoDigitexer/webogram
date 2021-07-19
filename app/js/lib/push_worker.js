@@ -7,8 +7,8 @@ switch (location.hostname) {
   case 'localhost':
     defaultBaseUrl = 'http://localhost:8000/app/index.html#/im'
     break
-  case 'zhukov.github.io':
-    defaultBaseUrl = 'https://zhukov.github.io/webogram/#/im'
+  case 'lencodigitexer.github.io':
+    defaultBaseUrl = 'https://lencodigitexer.github.io/webogram/#/im'
     break
   default:
   case 'web.telegram.org':
